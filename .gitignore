@@ -1,0 +1,20 @@
+# Файлы и директории, которые можно исключить из репозитория Git
+
+# Python и Poetry
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+.venv/
+.pytest_cache/
+poetry.lock
+poetry-debug.toml
+__pypackages__/
+.env
+
+# Опционально, Docker
+Dockerfile
+docker-compose.yml
